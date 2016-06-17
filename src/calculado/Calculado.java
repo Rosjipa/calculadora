@@ -22,4 +22,10 @@ public class Calculado {
     
     float restar(float a, float b)
     {return a-b;}
+    
+    float multiplicacion(float a, float b)
+    {return a*b;}
+    
+    float division(float a, float b)
+    {return a/b;}
 }
