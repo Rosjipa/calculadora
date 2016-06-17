@@ -27,8 +27,14 @@ public class Calculado {
     {return a*b;}
     
     float division(float a, float b)
-    {return a/b;}
-    
+    { 
+       if(b==0) 
+       {
+           System.out.print("no se puede imprimir");
+           return -1;
+       }                          
+        return a/b;
+    }
     double potencia(float a, float b)
     {return Math.pow(a,b);}
 }
