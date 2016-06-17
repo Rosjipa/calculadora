@@ -28,4 +28,7 @@ public class Calculado {
     
     float division(float a, float b)
     {return a/b;}
+    
+    double potencia(float a, float b)
+    {return Math.pow(a,b);}
 }
